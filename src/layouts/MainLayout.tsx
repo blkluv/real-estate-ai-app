@@ -1,7 +1,7 @@
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { Seo, SeoProps } from '@/components/Seo/Seo';
-import { Inter } from '@next/font/google';
+import { Inter } from 'next/dist/font';
 
 const inter = Inter({
   subsets: ['latin'],

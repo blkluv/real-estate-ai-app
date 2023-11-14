@@ -15,9 +15,10 @@ export const Seo = ({ title, description, image, url, type }: SeoProps) => {
 
   const seo = {
     title: title || 'Real Estate AI Generator',
-    description: description || 'Generate your house description in seconds.',
-    image: image || 'https://realestate-aigenerator.vercel.app/og-image.png',
-    url: url || `https://realestate-aigenerator.vercel.app${pathname}`,
+    description:
+      description || 'Generate your real estate property description in seconds.',
+    image: image || 'aire.luvnft.com/og-image.png',
+    url: url || `aire.luvnft.com${pathname}`,
     type: type || 'website',
   };
 
