@@ -12,17 +12,14 @@ export const Footer = () => {
             rel="noreferrer"
             className="font-bold hover:underline transition underline-offset-2"
           >
-            OpenAI{' '}
-          </a>
-          and{' '}
+            Arvrtise{' '}
+          </a>{' '}
           <a
-            href="https://vercel.com/"
+            href="https://arvrtise.com"
             target="_blank"
             rel="noreferrer"
             className="font-bold hover:underline transition underline-offset-2"
-          >
-            Vercel Edge Functions.
-          </a>
+          ></a>
         </div>
         {/**<p className="text-sm font-medium">Made with ❤️</p>*/}
         <div className="flex space-x-2">
